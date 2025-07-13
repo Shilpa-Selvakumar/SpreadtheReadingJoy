@@ -8,7 +8,7 @@ const books = [
   {
     title: "Diary of a Wimpy Kid- Hard Luck",
     author: "Jeff Kinney",
-    image: "/images/Hardluck.jpg",
+    image: "/images/salty.jpg",
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
