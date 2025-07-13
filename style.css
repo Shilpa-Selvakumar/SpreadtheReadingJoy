@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.book-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.book-card .book-info {
+  padding: 15px;
+}
+
+.book-card .book-info h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.book-card .book-info p {
+  font-size: 14px;
+  color: #555;
+}
