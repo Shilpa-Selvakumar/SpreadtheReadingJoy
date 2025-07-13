@@ -12,7 +12,7 @@ const books = [
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
-   title: "Diary of a Wimpy Kid- The Meltdown",
+    title: "Diary of a Wimpy Kid- The Meltdown",
     author: "Jeff Kinney",
     image: "images/meltdown.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
@@ -30,7 +30,7 @@ const books = [
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
-   title: "The Upside Down King",
+    title: "The Upside Down King",
     author: "Sudha Murty",
     image: "images/upsidedown.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
@@ -48,7 +48,7 @@ const books = [
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
-   title: "The Sage with Two Horns",
+    title: "The Sage with Two Horns",
     author: "Sudha Murty",
     image: "images/2horns.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
@@ -66,7 +66,7 @@ const books = [
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
-   title: "The Mother I never knew",
+    title: "The Mother I never knew",
     author: "Sudha Murty",
     image: "images/mother.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
@@ -86,17 +86,35 @@ const books = [
 ];
 
 const bookList = document.getElementById("book-list");
+const searchInput = document.getElementById("search-input");
 
-books.forEach(book => {
-  const card = document.createElement("div");
-  card.className = "book-card";
-  card.innerHTML = `
-    <img src="${book.image}" alt="${book.title}" />
-    <div class="book-info">
-      <h3>${book.title}</h3>
-      <p><strong>Author:</strong> ${book.author}</p>
-      <p>${book.description}</p>
-    </div>
-  `;
-  bookList.appendChild(card);
+// Function to render books
+function displayBooks(bookArray) {
+  bookList.innerHTML = ""; // Clear existing books
+  bookArray.forEach(book => {
+    const card = document.createElement("div");
+    card.className = "book-card";
+    card.innerHTML = `
+      <img src="${book.image}" alt="${book.title}" />
+      <div class="book-info">
+        <h3>${book.title}</h3>
+        <p><strong>Author:</strong> ${book.author}</p>
+        <p>${book.description}</p>
+      </div>
+    `;
+    bookList.appendChild(card);
+  });
+}
+
+// Initial display
+displayBooks(books);
+
+// Listen for search input
+searchInput.addEventListener("input", function () {
+  const query = this.value.toLowerCase();
+  const filteredBooks = books.filter(book =>
+    book.title.toLowerCase().includes(query) ||
+    book.author.toLowerCase().includes(query)
+  );
+  displayBooks(filteredBooks);
 });
