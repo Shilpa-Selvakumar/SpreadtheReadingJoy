@@ -8,79 +8,79 @@ const books = [
   {
     title: "Diary of a Wimpy Kid- Hard Luck",
     author: "Jeff Kinney",
-    image: "E:/Library/BookImg/Hardluck.jpg",
+    image: "/images/Hardluck.jpg",
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
    title: "Diary of a Wimpy Kid- The Meltdown",
     author: "Jeff Kinney",
-    image: "E:/Library/BookImg/meltdown.jpg",
+    image: "/images/meltdown.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
   },
   {
     title: "The Serpent's Revenge",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/serpentrevenge.jpg",
+    image: "/images/serpentrevenge.jpg",
     description: "A novel set in the Roaring Twenties exploring wealth, love, and tragedy."
   },
   {
     title: "How I Taught my Grandmother to read and other stories",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/taught.jpg",
+    image: "/images/taught.jpg",
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
    title: "The Upside Down King",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/upsidedown.jpg",
+    image: "/images/upsidedown.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
   },
   {
     title: "How the sea became salty",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/salty.jpg",
+    image: "/images/salty.jpg",
     description: "A novel set in the Roaring Twenties exploring wealth, love, and tragedy."
   },
   {
     title: "Gopi Diaries - Coming Home",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/cominghome.jpg",
+    image: "/images/cominghome.jpg",
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
    title: "The Sage with Two Horns",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/2horns.jpg",
+    image: "/images/2horns.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
   },
   {
     title: "The Man from the Egg",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/manfromegg.jpg",
+    image: "/images/manfromegg.jpg",
     description: "A novel set in the Roaring Twenties exploring wealth, love, and tragedy."
   },
   {
     title: "The Old man and his god",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/oldman.jpg",
+    image: "/images/oldman.jpg",
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
    title: "The Mother I never knew",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/mother.jpg",
+    image: "/images/mother.jpg",
     description: "A dystopian tale of government surveillance and totalitarianism."
   },
   {
     title: "Here, There and Everywhere",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/herethere.jpg",
+    image: "/images/herethere.jpg",
     description: "A novel set in the Roaring Twenties exploring wealth, love, and tragedy."
   },
   {
     title: "Wise and Otherwise",
     author: "Sudha Murty",
-    image: "E:/Library/BookImg/wiseotherwise.jpg",
+    image: "/images/wiseotherwise.jpg",
     description: "A powerful novel about racial injustice in the Deep South."
   }
 ];
