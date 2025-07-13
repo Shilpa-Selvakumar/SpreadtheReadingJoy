@@ -44,7 +44,7 @@ const books = [
   {
     title: "Gopi Diaries - Coming Home",
     author: "Sudha Murty",
-    image: "/images/cominghome.jpg",
+    image: "images/cominghome.jpg",
     description: "A powerful novel about racial injustice in the Deep South."
   },
   {
