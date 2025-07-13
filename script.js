@@ -2,7 +2,7 @@ const books = [
   {
     title: "Diary of a Wimpy Kid- Dog Days",
     author: "Jeff Kinney",
-    image: "/images/2horns.jpg",
+    image: "images/2horns.jpg",
     description: "A novel set in the Roaring Twenties exploring wealth, love, and tragedy."
   },
   {
